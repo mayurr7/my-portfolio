@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
+import Content from "./Content";
 
 const Main = () => {
   return (
@@ -33,13 +34,13 @@ const Main = () => {
             </li>
           </ul>
         </div>
-        <div className="flex-col flex-1 order-1 col-span-4 md:order-none"></div>
+        <Content />
         <div className="relative flex-initial order-2 hidden col-span-1 text-center md:flex md:order-none">
           <p className="fixed transition-all duration-500 origin-top-right rotate-90 translate-y-0 bottom-2 right-10 motion-reduce:transition-none opacity-1">
             📍 Based in Mumbai, India
           </p>
         </div>
-        {/* <footer className="order-last block mb-5 text-sm text-center md:hidden">
+        <footer className="order-last block mb-5 text-sm text-center md:hidden">
           <p>
             🚀 Designed &amp; Created by{" "}
             <a
@@ -57,7 +58,7 @@ const Main = () => {
           >
             Code available on Github 👾
           </a>
-        </footer> */}
+        </footer>
       </div>
     </div>
   );
