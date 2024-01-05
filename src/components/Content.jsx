@@ -1,6 +1,7 @@
 import React from "react";
 
 import Image from "../assets/images/bharat.jpg";
+import MyInfo from "./MyInfo";
 
 const Content = () => {
   return (
@@ -16,19 +17,7 @@ const Content = () => {
               src={Image}
               alt="Your Image Alt Text"
             />
-            <div className="flex flex-col space-y-2">
-              <p className="text-lg lg:text-xl transition-all motion-reduce:transition-none duration-500 delay-[500ms] translate-y-0 opacity-1">
-                Hello 👋, my name is
-              </p>
-              <h1 className="text-2xl lg:text-4xl font-bold transition-all motion-reduce:transition-none duration-500 delay-[550ms] translate-y-0 opacity-1">
-                Bharat Bhandari
-              </h1>
-              <p className="text-sm lg:text-base text-slate-500 dark:text-slate-300 transition-all motion-reduce:transition-none duration-500 delay-[600ms] translate-y-0 opacity-1">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
-                incidunt tenetur numquam blanditiis animi temporibus illum
-                repellendus quas quibusdam quis!
-              </p>
-            </div>
+            <MyInfo />
           </div>
         </section>
       </div>

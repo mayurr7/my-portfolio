@@ -116,3 +116,22 @@ html {
     opacity: 1;
   }
 }
+
+@keyframes blinking-rectangle {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.blinking-rectangle {
+  width: 0.6rem;
+  height: 1.2rem;
+  top: 19px;
+  left: 17px;
+  background-color: white;
+  animation: blinking-rectangle 1s infinite;
+}
