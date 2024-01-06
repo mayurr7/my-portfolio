@@ -41,18 +41,8 @@ const Main = () => {
           </p>
         </div>
         <footer className="order-last block mb-5 text-sm text-center md:hidden">
-          <p>
-            🚀 Designed &amp; Created by{" "}
-            <a
-              href="https://maximshelepov.com"
-              className="hover:text-link-color"
-              target="_blank"
-            >
-              Maxim Shelepov
-            </a>
-          </p>
           <a
-            href="https://github.com/feifyKike/webdev_portfolio"
+            href="https://github.com/Bharat-bhandari"
             className="hover:text-link-color"
             target="_blank"
           >
