@@ -12,7 +12,7 @@ const MyInfo = () => {
   return (
     <div className="relative p-4 rounded-lg bg-custom">
       <div className="absolute top-6 left-12 blinking-rectangle"></div>
-      <pre className="font-mono text-base text-gray-400 md:text-lg">
+      <pre className="font-mono text-sm text-gray-400 md:text-lg">
         <span className="text-yellow-300">const HelloWorld = </span>
         {`{\n  `}
         <span className="text-green-300">"_id": </span>
