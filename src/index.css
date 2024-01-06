@@ -130,7 +130,7 @@ html {
 .blinking-rectangle {
   width: 0.6rem;
   height: 1.2rem;
-  top: 19px;
+  top: 18px;
   left: 17px;
   background-color: white;
   animation: blinking-rectangle 1s infinite;
