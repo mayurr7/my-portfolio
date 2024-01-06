@@ -1,9 +1,13 @@
 import React from "react";
 
 import Image from "../assets/images/bharat.jpg";
+import quiz from "../assets/images/quiz.png";
+import comfy from "../assets/images/comfy.png";
 import MyInfo from "./MyInfo";
 import { motion } from "framer-motion";
 import { techStack } from "../utils/constants";
+import { FaGithub } from "react-icons/fa";
+import { LuExternalLink } from "react-icons/lu";
 
 const Content = () => {
   return (
@@ -84,6 +88,121 @@ const Content = () => {
             >
               Visit Archive
             </a>
+          </div>
+          <div className="flex flex-col space-y-12 transition-all duration-500 delay-300 translate-y-0 mb-36 motion-reduce:transition-none opacity-1 blur-0">
+            <div className="flex flex-col transition-opacity duration-500 lg:grid lg:grid-cols-2 lg:gap-x-4 motion-reduce:transition-none opacity-1">
+              <div className="order-first pb-4 lg:pb-0 lg:order-none lg:block">
+                <a
+                  href="https://brokebros-react-ecommerce.vercel.app/"
+                  target="_blank"
+                >
+                  <img
+                    src={comfy}
+                    className="transition-transform duration-300 ease-in-out rounded-md shadow-md hover:scale-105"
+                    loading="lazy"
+                    alt="TrackYourSubs IOS App"
+                  />
+                </a>
+              </div>
+              <div className="flex flex-col space-y-4 lg:text-right">
+                <h3 className="pb-2 text-xl font-extrabold">
+                  React Ecommerce Web
+                </h3>
+                <p className="text-slate-500 dark:text-slate-300">
+                  I developed this project to enhance my proficiency in React by
+                  working on a larger-scale application. It encompasses
+                  essential concepts such as Context API, React Router, OAuth,
+                  and state management. The project includes features like
+                  filtering, adding items to the cart, user authentication, and
+                  search functionality.
+                </p>
+                <p className="text-slate-600">React, Javascript, HTML, CSS</p>
+                <div className="flex items-center space-x-6 text-slate-400 lg:justify-end">
+                  <a
+                    href="https://github.com/Bharat-bhandari/React-Ecommerce-Web"
+                    className="flex items-center space-x-2 hover:text-[#4305ba] focus:text-link-color active:text-link-color"
+                    target="_blank"
+                  >
+                    <span className="flex items-center space-x-2">
+                      <FaGithub className="svg-inline--fa fa-github h-7 w-7" />
+                    </span>
+                  </a>
+                  <a
+                    href="https://brokebros-react-ecommerce.vercel.app/"
+                    className="flex items-center space-x-2 hover:text-[#4305ba] focus:text-link-color active:text-link-color"
+                    target="_blank"
+                  >
+                    <span className="flex items-center space-x-2">
+                      <LuExternalLink className="h-7 w-7" />
+
+                      <span></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col transition-opacity duration-500 lg:grid lg:grid-cols-2 lg:gap-x-4 motion-reduce:transition-none opacity-1">
+              <div className="flex flex-col space-y-4 text-left">
+                <h3 className="pb-2 text-xl font-extrabold">
+                  MindFaqt - AI quiz webapp
+                </h3>
+                <p className="text-slate-500 dark:text-slate-300">
+                  I collaborated in this online multiplayer quiz application
+                  named MindFaqt, where quizzes are dynamically generated using
+                  GPT-3. This project allowed me to gain valuable experience in
+                  concepts such as prompting, data fetching and storing, as well
+                  as implementing websockets and APIs. MindFaqt stands out as my
+                  first client project, marking a significant milestone in my
+                  journey with React when I was still in the early stages of
+                  learning.
+                </p>
+                <p className="text-slate-600">
+                  React, MongoDb ,Express, Node, OpenAI
+                </p>
+                <div className="flex items-center space-x-6 text-slate-400">
+                  <a
+                    href="https://github.com/Bharat-bhandari/MindFAQ"
+                    className="flex items-center space-x-2 hover:text-[#4305ba] focus:text-link-color active:text-link-color"
+                    target="_blank"
+                  >
+                    <span className="flex items-center space-x-2">
+                      <FaGithub className="svg-inline--fa fa-github h-7 w-7" />
+                    </span>
+                  </a>
+                  <a
+                    href="https://drive.google.com/file/d/1KV-kqNSzK2Iwq1UrHIdWh2HCbVszHopd/view?usp=sharing"
+                    className="flex items-center space-x-2 hover:text-[#4305ba] focus:text-link-color active:text-link-color"
+                    target="_blank"
+                  >
+                    <span className="flex items-center space-x-2">
+                      <LuExternalLink className="h-7 w-7" />
+                      <span></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div className="order-first pb-4 lg:pb-0 lg:order-none lg:block">
+                <a
+                  href="https://drive.google.com/file/d/1KV-kqNSzK2Iwq1UrHIdWh2HCbVszHopd/view?usp=sharing"
+                  target="_blank"
+                >
+                  <img
+                    src={quiz}
+                    className="transition-transform duration-300 ease-in-out rounded-md shadow-md hover:scale-105"
+                    loading="lazy"
+                    alt="Portfolio Item"
+                  />
+                </a>
+              </div>
+            </div>
+
+            {/* Add similar div blocks for other projects */}
+            <button className="px-6 py-2 mx-auto mt-10 transition duration-300 ease-in-out bg-transparent border shadow-sm w-52 border-button-color text-button-color shadow-button-color hover:bg-button-color hover:text-white focus:bg-button-color focus:text-white active:bg-button-color active:text-white">
+              <a href="https://github.com/Bharat-bhandari" target="_blank">
+                Show More
+              </a>
+            </button>
           </div>
         </section>
         {/* Projects */}
