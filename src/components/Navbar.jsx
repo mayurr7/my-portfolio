@@ -98,11 +98,11 @@ const Navbar = () => {
             <li className="transition-all motion-reduce:transition-none duration-500 delay-[100ms] translate-y-0 opacity-1">
               <a
                 // aria-current="page"
-                href="#experience"
+                href="#skills"
                 className="router-link-active router-link-exact-active block py-2 pl-3 pr-4 hover:text-[#4305ba]"
                 onClick={() => setActiveNav("#experience")}
               >
-                Experience
+                Skills
               </a>
             </li>
             <li className="transition-all motion-reduce:transition-none duration-500 delay-[150ms] translate-y-0 opacity-1">

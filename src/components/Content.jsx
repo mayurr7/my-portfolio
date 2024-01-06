@@ -26,8 +26,7 @@ const Content = () => {
         {/* End of profile section */}
 
         {/*  Skills */}
-
-        <section className="w-full min-h-screen" id="about-section">
+        <section className="w-full min-h-screen" id="skills">
           <div className="relative flex items-center py-5 transition-all duration-500 translate-y-0 opacity-1 blur-0 motion-reduce:transition-none">
             <h1 className="pr-5 text-3xl font-bold">
               🥷 Skills and Technologies
@@ -70,8 +69,68 @@ const Content = () => {
             </motion.div>
           </div>
         </section>
-
         {/* End od skills */}
+
+        {/* Projects */}
+        <section className="w-full min-h-screen" id="work">
+          <div className="relative flex items-center py-5 transition-all duration-500 translate-y-0 opacity-1 blur-0 motion-reduce:transition-none">
+            <h1 className="pr-2 text-3xl font-bold sm:pr-5">
+              💻 Projects and Work
+            </h1>
+            <div className="flex-grow border-t border-black dark:border-white border-1"></div>
+            <a
+              href="https://github.com/Bharat-bhandari"
+              className="pl-2 text-sm text-right sm:pl-5 hover:text-link-color"
+            >
+              Visit Archive
+            </a>
+          </div>
+        </section>
+        {/* Projects */}
+
+        {/* Contact */}
+        <section className="flex flex-col w-full min-h-screen" id="contact">
+          <div className="relative flex items-center py-5 transition-all duration-500 translate-y-0 opacity-1 blur-0 motion-reduce:transition-none">
+            <div className="flex-grow border-t border-black dark:border-white border-1"></div>
+            <h1 className="px-5 text-3xl font-bold">📭 Contact</h1>
+            <div className="flex-grow border-t border-black dark:border-white border-1"></div>
+          </div>
+          <div className="flex flex-col my-auto transition-all duration-500 delay-300 translate-y-0 motion-reduce:transition-none opacity-1 blur-0">
+            <div className="mx-auto space-y-8">
+              <h1 className="text-3xl font-extrabold text-center">
+                Get in Touch
+              </h1>
+              <p className="text-slate-500 dark:text-slate-300">
+                Currently seeking internships for web and software development
+                positions. Can start Imediately..
+                <br />
+              </p>
+              <p className="text-slate-500 dark:text-slate-300">
+                Also looking to build a team for projects &amp; startup ideas or
+                just make professional connections.
+                <br />
+              </p>
+              <div className="flex flex-col items-center justify-center space-y-5 sm:flex-row sm:space-x-5">
+                <a href="mailto:bharatbhandari1024@gmail.com" target="_blank">
+                  <button className="px-6 py-2 duration-300 bg-transparent border shadow-sm border-button-color shadow-button-color text-button-color hover:text-white hover:bg-button-color focus:bg-button-color focus:text-white active:bg-button-color active:text-white">
+                    Reach Out
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Contact */}
+
+        <footer className="hidden mb-5 text-center md:block">
+          <a
+            href="https://github.com/Bharat-bhandari"
+            className="hover:text-link-color"
+            target="_blank"
+          >
+            Code available on Github 👾
+          </a>
+        </footer>
       </div>
     </div>
   );
