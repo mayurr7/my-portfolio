@@ -22,7 +22,7 @@ const Content = () => {
             <img
               className="w-64 md:mb-6 h-64 md:w-96 md:h-96 lg:w-96 lg:h-96 rounded-full shadow-md transition-all motion-reduce:transition-none duration-500 delay-[400ms] translate-y-0 opacity-1 object-cover"
               src={Image}
-              alt="Your Image Alt Text"
+              alt="Your Image"
             />
             <MyInfo />
           </div>
@@ -100,7 +100,7 @@ const Content = () => {
                     src={comfy}
                     className="transition-transform duration-300 ease-in-out rounded-md shadow-md hover:scale-105"
                     loading="lazy"
-                    alt="TrackYourSubs IOS App"
+                    alt="Ecommerce"
                   />
                 </a>
               </div>
@@ -191,7 +191,7 @@ const Content = () => {
                     src={quiz}
                     className="transition-transform duration-300 ease-in-out rounded-md shadow-md hover:scale-105"
                     loading="lazy"
-                    alt="Portfolio Item"
+                    alt="Mindfaqt"
                   />
                 </a>
               </div>
@@ -230,7 +230,10 @@ const Content = () => {
                 <br />
               </p>
               <div className="flex flex-col items-center justify-center space-y-5 sm:flex-row sm:space-x-5">
-                <a href="mailto:bharatbhandari1024@gmail.com" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/bharat-bhandari-ba99bb19a/"
+                  target="_blank"
+                >
                   <button className="px-6 py-2 duration-300 bg-transparent border shadow-sm border-button-color shadow-button-color text-button-color hover:text-white hover:bg-button-color focus:bg-button-color focus:text-white active:bg-button-color active:text-white">
                     Reach Out
                   </button>
