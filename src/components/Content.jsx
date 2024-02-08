@@ -1,6 +1,7 @@
 import React from "react";
 
 import Image from "../assets/images/bharat.jpg";
+import asmi from "../assets/images/asmi.png";
 import quiz from "../assets/images/quiz.png";
 import comfy from "../assets/images/comfy.png";
 import MyInfo from "./MyInfo";
@@ -15,7 +16,8 @@ const Content = () => {
       <div className="container max-w-full mx-auto 2xl:max-w-6xl">
         {/*End of profile section */}
         <section
-          className="min-h-[calc(100vh*0.80)] w-full flex justify-center mb-52"
+          // className="min-h-[calc(100vh*0.80)] w-full flex justify-center mb-52"
+          className="min-h-[calc(100vh*0.80)] flex mb-52 justify-center"
           id="about"
         >
           <div className="flex flex-col items-center m-auto space-x-0 space-y-7 md:space-y-0 md:space-x-7 lg:flex-row">
@@ -89,7 +91,58 @@ const Content = () => {
               Visit Archive
             </a>
           </div>
-          <div className="flex flex-col space-y-12 transition-all duration-500 delay-300 translate-y-0 mb-36 motion-reduce:transition-none opacity-1 blur-0">
+          <div className="flex flex-col mt-12 space-y-12 transition-all duration-500 delay-300 translate-y-0 motion-reduce:transition-none opacity-1 blur-0">
+            <div className="flex flex-col transition-opacity duration-500 lg:grid lg:grid-cols-2 lg:gap-x-4 motion-reduce:transition-none opacity-1">
+              <div className="flex flex-col space-y-4 text-left">
+                <h3 className="pb-2 text-xl font-extrabold">
+                  Asmi - Mental health counselor website
+                </h3>
+                <p className="text-slate-500 dark:text-slate-300">
+                  This project help me a lot in my journey as a web developer,
+                  as it represents the first website I have conceptualized and
+                  executed entirely, from design to development. Utilizing my
+                  proficiency in the MERN stack, I not only enhanced my
+                  technical skills but also gained invaluable insights into the
+                  deployment process in real-world scenarios, leveraging AWS
+                  services.
+                </p>
+                <p className="text-slate-600">
+                  React, MongoDb ,Express, Node, Aws
+                </p>
+                <div className="flex items-center space-x-6 text-slate-400">
+                  {/* <a
+                    href="https://github.com/Bharat-bhandari/MindFAQ"
+                    className="flex items-center space-x-2 hover:text-[#4305ba] focus:text-link-color active:text-link-color"
+                    target="_blank"
+                  >
+                    <span className="flex items-center space-x-2">
+                      <FaGithub className="svg-inline--fa fa-github h-7 w-7" />
+                    </span>
+                  </a> */}
+                  <a
+                    href="https://asmi.life"
+                    className="flex items-center space-x-2 hover:text-[#4305ba] focus:text-link-color active:text-link-color"
+                    target="_blank"
+                  >
+                    <span className="flex items-center space-x-2">
+                      <LuExternalLink className="h-7 w-7" />
+                      <span></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div className="order-first pb-4 lg:pb-0 lg:order-none lg:block">
+                <a href="https://asmi.life" target="_blank">
+                  <img
+                    src={asmi}
+                    className="mb-32 transition-transform duration-300 ease-in-out rounded-md shadow-md hover:scale-105"
+                    loading="lazy"
+                    alt="asmi"
+                  />
+                </a>
+              </div>
+            </div>
+
             <div className="flex flex-col transition-opacity duration-500 lg:grid lg:grid-cols-2 lg:gap-x-4 motion-reduce:transition-none opacity-1">
               <div className="order-first pb-4 lg:pb-0 lg:order-none lg:block">
                 <a
@@ -98,7 +151,7 @@ const Content = () => {
                 >
                   <img
                     src={comfy}
-                    className="transition-transform duration-300 ease-in-out rounded-md shadow-md hover:scale-105"
+                    className="mb-32 transition-transform duration-300 ease-in-out rounded-md shadow-md hover:scale-105"
                     loading="lazy"
                     alt="Ecommerce"
                   />
@@ -189,7 +242,7 @@ const Content = () => {
                 >
                   <img
                     src={quiz}
-                    className="transition-transform duration-300 ease-in-out rounded-md shadow-md hover:scale-105"
+                    className="mb-32 transition-transform duration-300 ease-in-out rounded-md shadow-md hover:scale-105"
                     loading="lazy"
                     alt="Mindfaqt"
                   />

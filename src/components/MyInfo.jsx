@@ -5,8 +5,8 @@ const MyInfo = () => {
     _id: "127.0.0.1",
     name: "Bharat Bhandari",
     developer: true,
-    technologies: ["js", "react", "node", "..."],
-    interests: ["MERN stack development", "AI", "..."],
+    technologies: ["js", "react", "node", "express", "..."],
+    interests: ["MERN", "AI", "Aws", "..."],
   };
 
   return (

@@ -14,7 +14,7 @@ const App = () => {
         setIsLoading(true);
 
         // Simulate initialization process
-        await new Promise((resolve) => setTimeout(resolve, 2000));
+        await new Promise((resolve) => setTimeout(resolve, 1000));
 
         // Set loading to false after initialization
       } catch (error) {
