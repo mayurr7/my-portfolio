@@ -6,7 +6,7 @@ const MyInfo = () => {
     name: "Bharat Bhandari",
     developer: true,
     technologies: ["js", "react", "node", "express", "..."],
-    interests: ["MERN", "AI", "Aws", "..."],
+    interests: ["MERN", "AI", "DevOps", "Aws", "..."],
   };
 
   return (
