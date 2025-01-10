@@ -3,7 +3,7 @@ import React from "react";
 const MyInfo = () => {
   const HelloWorld = {
     _id: "127.0.0.1",
-    name: "Bharat Bhandari",
+    name: "Mayur Tekale",
     developer: true,
     technologies: ["js", "react", "node", "express", "..."],
     interests: ["MERN", "AI", "DevOps", "Aws", "..."],

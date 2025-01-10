@@ -1,17 +1,19 @@
 import React from "react";
 
-import Image from "../assets/images/bharat.jpg";
+import Image from "../assets/images/mayur.jpg";
 import asmi from "../assets/images/asmi.png";
-import quiz from "../assets/images/quiz.png";
 import comfy from "../assets/images/comfy.png";
 import MyInfo from "./MyInfo";
 import { motion } from "framer-motion";
 import { techStack } from "../utils/constants";
 import { FaGithub } from "react-icons/fa";
 import { LuExternalLink } from "react-icons/lu";
+import Navbar from "./Navbar";
 
 const Content = () => {
   return (
+    <>
+    {/* <Navbar/> */}
     <div className="flex-col flex-1 order-1 col-span-4 md:order-none">
       <div className="container max-w-full mx-auto 2xl:max-w-6xl">
         {/*End of profile section */}
@@ -22,7 +24,7 @@ const Content = () => {
         >
           <div className="flex flex-col items-center m-auto space-x-0 space-y-7 md:space-y-0 md:space-x-7 lg:flex-row">
             <img
-              className="w-64 md:mb-6 h-64 md:w-96 md:h-96 lg:w-96 lg:h-96 rounded-full shadow-md transition-all motion-reduce:transition-none duration-500 delay-[400ms] translate-y-0 opacity-1 object-cover"
+              className="w-64 md:mb-6 h-96 md:w-96 md:h-96 lg:w-96 lg:h-96 rounded-full shadow-md transition-all motion-reduce:transition-none duration-500 delay-[400ms] translate-y-0 opacity-1 object-cover"
               src={Image}
               alt="Your Image"
             />
@@ -30,7 +32,6 @@ const Content = () => {
           </div>
         </section>
         {/* End of profile section */}
-
         {/*  Skills */}
         <section className="w-full min-h-screen" id="skills">
           <div className="relative flex items-center py-5 transition-all duration-500 translate-y-0 opacity-1 blur-0 motion-reduce:transition-none">
@@ -85,7 +86,7 @@ const Content = () => {
             </h1>
             <div className="flex-grow border-t border-black dark:border-white border-1"></div>
             <a
-              href="https://github.com/Bharat-bhandari"
+              href="https://github.com/mayurr7"
               className="pl-2 text-sm text-right sm:pl-5 hover:text-link-color"
             >
               Visit Archive
@@ -172,12 +173,12 @@ const Content = () => {
                 <p className="text-slate-600">React, Javascript, HTML, CSS</p>
                 <div className="flex items-center space-x-6 text-slate-400 lg:justify-end">
                   <a
-                    href="https://github.com/Bharat-bhandari/React-Ecommerce-Web"
+                    // href="https://github.com/Bharat-bhandari/React-Ecommerce-Web"
                     className="flex items-center space-x-2 hover:text-[#4305ba] focus:text-link-color active:text-link-color"
                     target="_blank"
                   >
                     <span className="flex items-center space-x-2">
-                      <FaGithub className="svg-inline--fa fa-github h-7 w-7" />
+                      {/* <FaGithub className="svg-inline--fa fa-github h-7 w-7" /> */}
                     </span>
                   </a>
                   <a
@@ -195,7 +196,7 @@ const Content = () => {
               </div>
             </div>
 
-            <div className="flex flex-col transition-opacity duration-500 lg:grid lg:grid-cols-2 lg:gap-x-4 motion-reduce:transition-none opacity-1">
+            {/* <div className="flex flex-col transition-opacity duration-500 lg:grid lg:grid-cols-2 lg:gap-x-4 motion-reduce:transition-none opacity-1">
               <div className="flex flex-col space-y-4 text-left">
                 <h3 className="pb-2 text-xl font-extrabold">
                   MindFaqt - AI quiz webapp
@@ -248,11 +249,11 @@ const Content = () => {
                   />
                 </a>
               </div>
-            </div>
+            </div> */}
 
             {/* Add similar div blocks for other projects */}
             <button className="px-6 py-2 mx-auto mt-10 transition duration-300 ease-in-out bg-transparent border shadow-sm w-52 border-button-color text-button-color shadow-button-color hover:bg-button-color hover:text-white focus:bg-button-color focus:text-white active:bg-button-color active:text-white">
-              <a href="https://github.com/Bharat-bhandari" target="_blank">
+              <a href="https://github.com/mayurr7" target="_blank">
                 Show More
               </a>
             </button>
@@ -284,7 +285,7 @@ const Content = () => {
               </p>
               <div className="flex flex-col items-center justify-center space-y-5 sm:flex-row sm:space-x-5">
                 <a
-                  href="https://www.linkedin.com/in/bharat-bhandari-ba99bb19a/"
+                  href="https://www.linkedin.com/in/mayur-tekale-1540a023b/"
                   target="_blank"
                 >
                   <button className="px-6 py-2 duration-300 bg-transparent border shadow-sm border-button-color shadow-button-color text-button-color hover:text-white hover:bg-button-color focus:bg-button-color focus:text-white active:bg-button-color active:text-white">
@@ -299,7 +300,7 @@ const Content = () => {
 
         <footer className="hidden mb-5 text-center md:block">
           <a
-            href="https://github.com/Bharat-bhandari"
+            href="https://github.com/mayurr7"
             className="hover:text-link-color"
             target="_blank"
           >
@@ -308,6 +309,7 @@ const Content = () => {
         </footer>
       </div>
     </div>
+    </>
   );
 };
 
