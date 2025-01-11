@@ -20,8 +20,8 @@ export const techStack = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
   },
   {
-    name: "C/C++",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg",
+    name: "Java",
+    link: "https://images.app.goo.gl/9KrN7EV4dTAJiD2q8",
   },
 
   {

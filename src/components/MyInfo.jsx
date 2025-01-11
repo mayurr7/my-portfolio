@@ -5,7 +5,7 @@ const MyInfo = () => {
     _id: "127.0.0.1",
     name: "Mayur Tekale",
     developer: true,
-    technologies: ["js", "react", "node", "express", "..."],
+    technologies: ["js", "react", "node", "express", "Java","..."],
     interests: ["MERN", "AI", "DevOps", "Aws", "..."],
   };
 
