@@ -125,7 +125,7 @@ const Navbar = () => {
             </li>
             <li className="transition-all motion-reduce:transition-none duration-500 delay-[250ms] translate-y-0 opacity-1">
               <a
-                href="https://drive.google.com/file/d/1j-L2EC4z4zB8f8nyxrWybO68lj9amqTE/view?usp=drive_link"
+                href="https://drive.google.com/file/d/162Md04ruReUZWjRkqRYIC9VnozcwxIOk/view?usp=drive_link"
                 target="_blank"
               >
                 <button className="block px-6 py-2 transition duration-300 ease-in-out bg-transparent border shadow-sm border-button-color shadow-button-color text-button-color hover:bg-button-color hover:text-white hover:dark:text-slate-300 focus:bg-button-color focus:text-white active:bg-button-color active:text-white">
